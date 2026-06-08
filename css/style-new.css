@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    background-image: url("/img/pattern-banner.png");
+}
+header
+{
+    height: 50px;
+    width: 100%;
+    background-color: #c05c5f;
+    color: #efa5a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1
+{
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px;
+}
+header nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+header nav ul li a
+{
+    text-decoration: none;
+    color: #efa5a5;
+    font-size: 20px;
+}
+header nav ul li a:hover
+{
+    color: #fff;
+}
+header div a
+{
+    margin: 15px;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 110px;
+}
+header div a:hover
+{
+    background-color: transparent;
+    border: 2px solid #efa5a5;
+}
+.logo
+{
+    font-family: "Cinzel", sans-serif;
+    font-weight: bold;
+    color: #fcc7c7;
+    font-size: 25px;
+}
+.sign-in-container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-card
+{
+    width: 400px;
+    background-color: transparent;
+    border: 1px solid #c05c5f;
+    border-radius: 22px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.416);   
+    backdrop-filter: blur(5px);
+    padding: 30px;
+}
+h2
+{
+    text-align: center;
+    color: #c05c5f;
+    font-family: "Cinzel", sans-serif;
+    font-weight: bolder;
+    margin: 5px;
+}
+.input-box
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.12);
+    padding: 10px;
+    border-radius: 8px;
+}
+.icon
+{
+    margin-right: 10px;
+    color: #c05c5f;
+}
+.input-box input
+{
+   background: rgba(0, 0, 0, 0.12);
+   flex: 1;
+   background: none;
+   border: none;
+   outline: none;
+   color: #c05c5f;
+   font-size: 16px;
+}
+.option
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.link
+{
+    color: #c05c5f;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 12px
+}
+.link:hover
+{
+    text-decoration: underline;
+}
+.cadastrar-link
+{
+    margin-top: 5px;
+    text-align: center;
+}
+.btn
+{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #c05c5f;
+    color: #c05c5f;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: #c05c5f;
+    color: #fff;
+}
+footer
+{
+    background-color: #c05c5f;
+    color: #efa5a5;
+    text-align: center;
+    padding: 45px;
+    margin-top: 40px;
+}
